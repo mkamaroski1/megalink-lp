@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MegaLink LP
 
-## Getting Started
+## Descrição
+MegaLink LP é uma página de vendas baseada em Next.js
 
-First, run the development server:
+## Requisitos
+- Node.js v20.11.0 ou superior
+- Next.js v14.2 ou superior
 
-```bash
+## Instalação
+1. Clone este repositório para o seu ambiente local:
+git clone https://github.com/seu-usuario/megalink-ld.git
+
+
+2. Navegue até o diretório do projeto:
+cd megalink-ld
+
+
+3. Instale as dependências do projeto:
+npm i
+
+
+## Uso
+1. Inicie o servidor de desenvolvimento:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Abra o navegador e acesse `http://localhost:3000` para visualizar o projeto em execução.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Cor Personalizada
+- O projeto já possui uma cor personalizada chamada `greenml`, definida no arquivo `tailwind.config.ts`. Você pode usar essa cor em seu código usando as classes geradas pelo Tailwind CSS.
 
-## Learn More
+<div className="bg-greenml" </div>
 
-To learn more about Next.js, take a look at the following resources:
+## Estilo de Títulos
+- Os títulos `<h1>`, `<h2>` e `<h3>` devem ser estilizados da seguinte forma:
+```html
+<h1 class="font-telegraf">Este é um título H1 com a fonte Telegraf</h1>
+<h2 class="font-telegraf">Este é um título H2 com a fonte Telegraf</h2>
+<h3 class="font-poppins">Este é um título H3 com a fonte Poppins</h3>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contribuição
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Fork o projeto
+Crie uma branch com a sua feature (git checkout -b feature/sua-feature)
+Faça commit das suas mudanças (git commit -am 'Adicione sua feature')
+Faça push para a branch (git push origin feature/sua-feature)
+Abra um Pull Request
