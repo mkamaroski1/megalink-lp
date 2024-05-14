@@ -9,11 +9,11 @@ MegaLink LP é uma página de vendas baseada em Next.js
 
 ## Instalação
 1. Clone este repositório para o seu ambiente local:
-git clone https://github.com/seu-usuario/megalink-ld.git
+git clone https://github.com/mkamaroski1/megalink-lp.git
 
 
 2. Navegue até o diretório do projeto:
-cd megalink-ld
+cd megalink-lp
 
 
 3. Instale as dependências do projeto:
