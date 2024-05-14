@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        greenmg: "#01CF02",
+        greenml: "#01CF02",
       },
       fontFamily: {
         telegraf: ["Telegraf", "sans-serif"],

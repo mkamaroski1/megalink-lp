@@ -40,7 +40,7 @@ npm run dev
 <h3 class="font-poppins">Este é um título H3 com a fonte Poppins</h3>
 
 
-Contribuição
+## Contribuição
 
 
 Fork o projeto
