@@ -30,7 +30,10 @@ npm run dev
 ## Cor Personalizada
 - O projeto já possui uma cor personalizada chamada `greenml`, definida no arquivo `tailwind.config.ts`. Você pode usar essa cor em seu código usando as classes geradas pelo Tailwind CSS.
 
+```javascript
 <div className="bg-greenml"> </div>
+
+```
 
 ## Estilo de Títulos
 - Os títulos `<h1>`, `<h2>` e `<h3>` devem ser estilizados da seguinte forma:
