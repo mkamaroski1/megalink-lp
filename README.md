@@ -30,7 +30,7 @@ npm run dev
 ## Cor Personalizada
 - O projeto já possui uma cor personalizada chamada `greenml`, definida no arquivo `tailwind.config.ts`. Você pode usar essa cor em seu código usando as classes geradas pelo Tailwind CSS.
 
-<div className="bg-greenml" </div>
+<div className="bg-greenml"> </div>
 
 ## Estilo de Títulos
 - Os títulos `<h1>`, `<h2>` e `<h3>` devem ser estilizados da seguinte forma:
@@ -38,13 +38,16 @@ npm run dev
 <h1 class="font-telegraf">Este é um título H1 com a fonte Telegraf</h1>
 <h2 class="font-telegraf">Este é um título H2 com a fonte Telegraf</h2>
 <h3 class="font-poppins">Este é um título H3 com a fonte Poppins</h3>
+```
+
+## Contribuição:
+
+1. Crie sua feature branch: git checkout -b my-new-feature |
+2. Adicione os arquivos modificados: git add .
+3. Faça um Commit com suas alterações: git commit -m "Add some feature"
+4. Faça um push da sua branch: git push origin my-new-feature
+5. Envie um Pull Request para esse repositório
+6. Adicione um título e uma descrição que deixe claro sua sugestão :)
 
 
-## Contribuição
-
-
-Fork o projeto
-Crie uma branch com a sua feature (git checkout -b feature/sua-feature)
-Faça commit das suas mudanças (git commit -am 'Adicione sua feature')
-Faça push para a branch (git push origin feature/sua-feature)
-Abra um Pull Request
+Depois que seu pull request for mergeado, você pode apagar sua branch.
