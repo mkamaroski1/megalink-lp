@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         greenml: "#01CF02",
+        header: "#FF0000",
+        darkgreen: "#008402",
       },
       fontFamily: {
         telegraf: ["Telegraf", "sans-serif"],
