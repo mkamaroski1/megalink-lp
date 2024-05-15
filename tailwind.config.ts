@@ -17,6 +17,9 @@ const config: Config = {
         telegraf: ["Telegraf", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        greenfade: "url('../images/greenfade.png')"
+      }
     },
   },
   plugins: [],
