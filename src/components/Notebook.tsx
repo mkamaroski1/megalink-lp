@@ -8,7 +8,7 @@ interface NotebookProps {
 
 export default function Notebook({ children }: NotebookProps) {
   return (
-    <div className="relative lg:w-[1080px] w-[570px] lg:h-[608px] h-[350px] top-20 lg:top-0 lg:left-24 lg:p-10 py-20 z-10 mx-auto overflow-hidden">
+    <div className="relative lg:w-[1080px] w-[570px] lg:h-[608px] h-[350px] top-44 lg:top-0 lg:left-24 lg:p-10 py-20 z-10 mx-auto overflow-hidden">
       <Image src={notebook} alt="Notebook" layout="fill" objectFit="contain" />
       <div className="absolute top-[10%] left-[10%] right-[10%] bottom-[10%] flex justify-center items-center">
         <iframe
