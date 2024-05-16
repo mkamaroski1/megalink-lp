@@ -5,7 +5,7 @@ import BorderNeon from "@/images/bordaneon.png";
 
 export default function PrimaryFeature() {
   return (
-    <div className="relative bg-greenfade bg-cover text-white lg:pt-0 pt-64 flex min-h-screen flex-col lg:flex-row items-center justify-between overflow-hidden">
+    <div className="relative bg-greenfade bg-cover border-b-4 border-green-900 text-white lg:pt-0 pt-64 flex min-h-screen flex-col lg:flex-row items-center justify-between overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src={Fade}
@@ -37,7 +37,7 @@ export default function PrimaryFeature() {
           negócio em 2024.
         </p>
       </div>
-      <div className="absolute lg:p-64 pt-48 w-72 lg:w-full items-center justify-center overflow-hidden">
+      <div className="absolute lg:p-64 pt-48 w-72 lg:w-full items-center justify-between overflow-hidden">
         <Image
           src={BorderNeon}
           alt="Neon Border"

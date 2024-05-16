@@ -18,8 +18,9 @@ const config: Config = {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        greenfade: "url('../images/greenfade.png')"
-      }
+        greenfade: "url('../images/greenfade.png')",
+        greenbackground: "url('../images/bg1.png')"
+      },
     },
   },
   plugins: [],
