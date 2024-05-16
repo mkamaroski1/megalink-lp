@@ -96,7 +96,7 @@ export default function SecondFeature() {
               <Image src={Server} alt="Server" className="lg:ml-24" />
             </div>
             <div className="flex flex-col lg:col-span-2 justify-center items-center">
-              <h3 className="text-center lg:font-medium text-lg lg:text-2xl pt-10 pb-5  lg:mr-[540px] lg:mb-5">
+              <h3 className="text-center lg:font-medium text-lg lg:text-2xl pt-10 pb-1  lg:mr-[550px] lg:mb-5">
                 CONEXÃO DEDICADA
               </h3>
               <p className="lg:text-start lg:font-semibold lg:text-lg lg:w-[400px] w-[320px] lg:mr-96 hidden lg:block">
