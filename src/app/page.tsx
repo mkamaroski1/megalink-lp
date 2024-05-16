@@ -1,8 +1,9 @@
+import Image from "next/image";
+
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import PrimaryFeature from "@/components/PrimaryFeature";
 import SecondFeature from "@/components/SecondFeature";
-import Image from "next/image";
+import ThirdFeature from "@/components/ThirdFeature";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <SecondFeature />
+      <ThirdFeature />
     </>
   );
 }

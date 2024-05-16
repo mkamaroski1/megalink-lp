@@ -19,7 +19,8 @@ const config: Config = {
       },
       backgroundImage: {
         greenfade: "url('../images/greenfade.png')",
-        greenbackground: "url('../images/bg1.png')"
+        secondbg: "url('../images/bg1.png')",
+        thirdbg: "url('../images/thirdbg.png')",
       },
     },
   },
