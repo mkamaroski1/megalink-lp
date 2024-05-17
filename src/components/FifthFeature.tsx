@@ -188,7 +188,7 @@ export default function () {
           </div>
         </div>
         <div className=" text-white lg:flex lg:flex-col text-center items-center justify-center hidden">
-          <div className="flex flex-row items-center justify-center">
+          <div className="lg:flex flex-row items-center justify-center md:hidden">
             <h1 className="font-bold font-sans text-greenml text-[300px] mr-[380px] ">
               3
             </h1>
@@ -200,7 +200,7 @@ export default function () {
             <Image
               src={ArrowUp}
               alt="Arrow Up"
-              className="absolute w-[450px] ml-[600px] mb-[300px]"
+              className="absolute w-[450px] ml-[550px] mb-[300px] hidden lg:block"
             />
           </div>
         </div>
@@ -367,41 +367,36 @@ export default function () {
             Imperdível!
           </h1>
         </div>
-        <div className="flex flex-col text-white w-[400px] items-center justify-center pb-20">
+        <div className="flex flex-col text-white w-full items-center justify-center pb-20">
           <div className=" items-center justify-center">
-            <h2 className="absolute font-bold text-greenml ml-[155px] mt-16 z-20">
+            <h2 className="absolute font-bold text-greenml ml-[140px] mt-16 z-20">
               POR TEMPO
               <br /> LIMITADO
             </h2>
             <div className="items-center justify-center gap-1">
-              <h2 className="absolute font-bold text-center text-black ml-[140px] mt-[150px] text-[20px] z-20 pr-10">
+              <h2 className="absolute font-bold text-center text-black ml-[125px] mt-[150px] text-[20px] z-20 pr-10">
                 DE
               </h2>
-              <h2 className="absolute font-bold line-through text-header z-20 ml-[175px] mt-[150px] text-[20px]">
+              <h2 className="absolute font-bold line-through text-header z-20 ml-[160px] mt-[150px] text-[20px]">
                 R$397,00
               </h2>
-              <Image
-                src={ArrowDown}
-                alt="Arrow Down"
-                className="absolute w-[150px] ml-[126px] mt-[160px] z-20"
-              />
             </div>
             <div className="items-center justify-center gap-1">
-              <h2 className="absolute font-bold text-black text-[20px] ml-[150px] mt-[260px] z-20">
+              <h2 className="absolute font-bold text-black text-[20px] ml-[138px] mt-[190px] z-20">
                 A partir de
               </h2>
-              <h2 className="absolute font-bold text-black text-[15px] ml-[130px] mt-[315px] z-20">
+              <h2 className="absolute font-bold text-black text-[15px] ml-[120px] mt-[250px] z-20">
                 R$
               </h2>
-              <h2 className="absolute font-bold text-greenml text-[32px] ml-[150px] mt-[300px] z-20">
+              <h2 className="absolute font-bold text-greenml text-[32px] ml-[140px] mt-[235px] z-20">
                 247,00
               </h2>
-              <h2 className="absolute font-bold text-black text-[20px] ml-[163px] mt-[350px] z-20">
+              <h2 className="absolute font-bold text-black text-[20px] ml-[150px] mt-[300px] z-20">
                 Mensal!
               </h2>
             </div>
-            <Image src={Iphone} alt="iPhone" className="relative z-10" />
-            <div className="mt-10 font-bold">
+            <Image src={Iphone} alt="iPhone" className="relative z-10 overflow-hidden" />
+            <div className="mt-10 font-bold ">
               <h1 className="h-[100%] font-bold text-base">
                 Já imaginou ter a<span className="font-extrabold"> MELHOR</span>{" "}
                 internet por
@@ -430,7 +425,7 @@ export default function () {
             <Image
               src={ArrowUp}
               alt="Arrow Up"
-              className="absolute w-[450px] ml-[600px] mb-[300px]"
+              className="absolute w-[450px] ml-[550px] mb-[300px] hidden lg:block overflow-hidden"
             />
           </div>
         </div>

@@ -18,7 +18,6 @@ const config: Config = {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        greenfade: "url('../images/greenfade.png')",
         secondbg: "url('../images/bg1.png')",
         thirdbg: "url('../images/thirdbg.png')",
         fourthbg: "url('../images/fourthbg.png')",
