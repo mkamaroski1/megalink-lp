@@ -23,7 +23,8 @@ const config: Config = {
         thirdbg: "url('../images/thirdbg.png')",
         fourthbg: "url('../images/fourthbg.png')",
         greenfadefifth: "url('../images/greenfadefifth.png')",
-        greenfadefifth1: "url('../images/greenfadefifth1.png')"
+        greenfadefifth1: "url('../images/greenfadefifth1.png')",
+        sixthbg: "url('../images/sixthbg.png')"
       },
     },
   },
