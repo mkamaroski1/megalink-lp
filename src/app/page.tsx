@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import SecondFeature from "@/components/SecondFeature";
 import ThirdFeature from "@/components/ThirdFeature";
 import FouthFeature from "@/components/FourthFeature";
+import FifthFeature from "@/components/FifthFeature";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SecondFeature />
       <ThirdFeature />
       <FouthFeature />
+      <FifthFeature />
     </>
   );
 }

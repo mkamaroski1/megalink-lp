@@ -92,28 +92,27 @@ export default function SecondFeature() {
         {/*Fourth title */}
         <div className="lg:flex-row text-center items-center justify-center">
           <div className="lg:grid grid-cols-3 flex-row lg:my-20">
-            <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml- ml-[25%] hidden lg:block ">
+            <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml- ml-[25%] hidden lg:block">
               <Image src={Server} alt="Server" className="lg:ml-24" />
             </div>
             <div className="flex flex-col lg:col-span-2 justify-center items-center">
               <h3 className="text-center lg:font-medium text-lg lg:text-2xl pt-10 pb-1  lg:mr-[550px] lg:mb-5">
                 CONEXÃO DEDICADA
               </h3>
-              <p className="lg:text-start lg:font-semibold lg:text-lg lg:w-[400px] w-[320px] lg:mr-96 hidden lg:block">
+              <p className="lg:text-start lg:font-semibold lg:text-lg lg:w-[400px] w-[320px] lg:mr-96 hidden lg:flex">
                 Nossa equipe monitora seu link 24 horas por dia, todos os dias,
                 resolvendo interrupções rapidamente e de forma discreta.
               </p>
-              <p className="text-center font-medium text-base w-[320px] pb-10 block lg:hidden">
+              <p className="text-center font-medium text-base w-[320px] flex mb-10 lg:hidden">
                 Nossa equipe monitora seu link 24 horas por dia, todos os dias,
                 resolvendo interrupções rapidamente e de forma discreta.
               </p>
-              <div className="items-center justify-center w-[200px] block lg:hidden ">
-                <Image src={Server} alt="Server" className="pb-14" />
+              <div className="items-center justify-center w-[200px] mt-2 mb-20 block lg:hidden ">
+                <Image src={Server} alt="Server" className="" />
               </div>
             </div>
           </div>
         </div>
-
         <footer className="bg-header text-white lg:h-20 md:h-12 z-10">
           <div className="flex items-center justify-center p-5 font-bold ">
             <h1 className="text-center lg:text-3xl md:text-2xl shadow-sm">

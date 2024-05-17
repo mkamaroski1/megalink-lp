@@ -12,7 +12,7 @@ export default function Notebook({ children }: NotebookProps) {
       <Image src={notebook} alt="Notebook" layout="fill" objectFit="contain" />
       <div className="absolute top-[10%] left-[10%] right-[10%] bottom-[10%] flex justify-center items-center">
         <iframe
-          className="lg:w-[475px] w-[245px] mb-5 lg:h-[300px] h-[157px] self-center mx-10"
+          className="lg:w-[475px] w-[245px] mb-5 lg:h-[300px] h-[157px] self-center mx-10 overflow-hidden"
           width="565"
           height="350"
           src="https://www.youtube.com/embed/gZZufWvsD7I"

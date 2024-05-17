@@ -5,7 +5,7 @@ import Server4 from "@/images/serverfourthfeature.png";
 export default function FouthFeature() {
   return (
     <>
-      <div className="bg-fourthbg lg:bg-cover min-w-screen min-h-screen text-white">
+      <div className="bg-fourthbg font-telegraf bg-cover min-w-screen min-h-screen text-white overflow-hidden">
         {/*Desktop Responsive*/}
         <div className="hidden lg:block">
           <div className="lg:flex-row flex items-center justify-around h-screen w-screen">
@@ -24,7 +24,7 @@ export default function FouthFeature() {
           </div>
         </div>
         {/*Mobile Responsive*/}
-        <div className=" flex items-center justify-around h-screen w-screen lg:hidden">
+        <div className=" flex items-center justify-around min-h-screen lg:hidden overflow-hidden">
           <div className="block lg:hidden">
             <p className="text-center pb-14">
               Conheça nossa rede revolucionária,
