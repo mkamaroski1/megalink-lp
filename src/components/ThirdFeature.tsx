@@ -1,7 +1,7 @@
 export default function ThirdFeature() {
   return (
     <>
-      <div className="bg-thirdbg bg-cover bg-no-repeat text-white w-[100%] h-full">
+      <div className="bg-thirdbg bg-cover bg-no-repeat text-white min-w-screen min-h-screen border-b-black">
         <div className="flex flex-col items-center justify-center p-16 lg:mx-5">
           <h2 className="lg:text-4xl text-sm font-bold font-poppins text-center pt-14 lg:p-20">
             O QUE É LINK DEDICADO?
