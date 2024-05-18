@@ -6,6 +6,7 @@ import SecondFeature from "@/components/SecondFeature";
 import ThirdFeature from "@/components/ThirdFeature";
 import FouthFeature from "@/components/FourthFeature";
 import FifthFeature from "@/components/FifthFeature";
+import SixthFeature from "@/components/SixthFeature";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ThirdFeature />
       <FouthFeature />
       <FifthFeature />
+      <SixthFeature />
     </>
   );
 }

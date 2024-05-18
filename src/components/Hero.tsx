@@ -7,7 +7,7 @@ import PrimaryFeature from "./PrimaryFeature";
 export default function Home() {
   return (
     <>
-      <main className="bg-black text-white min-h-screen flex-col lg:flex-row items-center justify-between overflow-hidden">
+      <main className="bg-black text-white min-h-screen lg:min-h-screen flex-col lg:flex-row items-center justify-between overflow-hidden">
         <div className="text-center lg:text-left absolute lg:absolute items-center justify-center text-2xl lg:text-6xl font-telegraf h-auto lg:pt-24 top-40 lg:top-24 lg:pl-20">
           <h1 className="lg:w-[490px] lg:p-5">
             Conheça agora a melhor e mais{" "}
