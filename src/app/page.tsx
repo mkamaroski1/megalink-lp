@@ -7,6 +7,7 @@ import ThirdFeature from "@/components/ThirdFeature";
 import FouthFeature from "@/components/FourthFeature";
 import FifthFeature from "@/components/FifthFeature";
 import SixthFeature from "@/components/SixthFeature";
+import SeventhFeature from "@/components/SeventhFeature";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <FouthFeature />
       <FifthFeature />
       <SixthFeature />
+      <SeventhFeature />
     </>
   );
 }
