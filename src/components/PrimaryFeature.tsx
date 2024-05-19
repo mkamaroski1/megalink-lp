@@ -5,7 +5,7 @@ import BorderNeon from "@/images/bordaneon.png";
 
 export default function PrimaryFeature() {
   return (
-    <div className="bg-black bg-cover text-white lg:pt-0 pt-56 flex lg:min-h-screen min-h-screen flex-col lg:flex-row items-center justify-between content-center overflow-hidden">
+    <div className="bg-primarybg bg-cover text-white lg:pt-0 pt-56 flex lg:min-h-screen min-h-screen flex-col lg:flex-row items-center justify-between content-center overflow-hidden">
       <div className="absolute inset-0 z-0 content-center">
       </div>
       <div className="flex-row absolute font-poppins lg:pl-20 items-center justify-center content-center">

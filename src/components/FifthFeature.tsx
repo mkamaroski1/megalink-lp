@@ -369,29 +369,29 @@ export default function () {
         </div>
         <div className="flex flex-col text-white w-full items-center justify-center pb-20">
           <div className=" items-center justify-center">
-            <h2 className="absolute font-bold text-greenml ml-[140px] mt-16 z-20">
+            <h2 className="absolute font-bold text-greenml ml-[165px] mt-16 z-20">
               POR TEMPO
               <br /> LIMITADO
             </h2>
             <div className="items-center justify-center gap-1">
-              <h2 className="absolute font-bold text-center text-black ml-[125px] mt-[150px] text-[20px] z-20 pr-10">
+              <h2 className="absolute font-bold text-center text-black ml-[145px] mt-[150px] text-[20px] z-20 pr-10">
                 DE
               </h2>
-              <h2 className="absolute font-bold line-through text-header z-20 ml-[160px] mt-[150px] text-[20px]">
+              <h2 className="absolute font-bold line-through text-header z-20 ml-[180px] mt-[150px] text-[20px]">
                 R$397,00
               </h2>
             </div>
             <div className="items-center justify-center gap-1">
-              <h2 className="absolute font-bold text-black text-[20px] ml-[138px] mt-[190px] z-20">
+              <h2 className="absolute font-bold text-black text-[20px] ml-[158px] mt-[190px] z-20">
                 A partir de
               </h2>
-              <h2 className="absolute font-bold text-black text-[15px] ml-[120px] mt-[250px] z-20">
+              <h2 className="absolute font-bold text-black text-[15px] ml-[140px] mt-[250px] z-20">
                 R$
               </h2>
-              <h2 className="absolute font-bold text-greenml text-[32px] ml-[140px] mt-[235px] z-20">
+              <h2 className="absolute font-bold text-greenml text-[32px] ml-[160px] mt-[235px] z-20">
                 247,00
               </h2>
-              <h2 className="absolute font-bold text-black text-[20px] ml-[150px] mt-[300px] z-20">
+              <h2 className="absolute font-bold text-black text-[20px] ml-[175px] mt-[300px] z-20">
                 Mensal!
               </h2>
             </div>
@@ -435,7 +435,7 @@ export default function () {
             <Image
               src={BorderNeonF}
               alt=""
-              className="absolute w-[150px] mb-[190px]"
+              className="absolute w-[150px] mb-[150px]"
             />
             <h2 className="font-bold font-poppins text-[30px] p-7">
               Redundância no rádio sem custo mensal
@@ -446,7 +446,7 @@ export default function () {
             <Image
               src={BorderNeonF}
               alt=""
-              className="absolute w-[150px] mb-[145px]"
+              className="absolute w-[150px] mb-[100px]"
             />
             <h2 className="font-bold text-greenml font-poppins text-[30px] p-7">
               Instalação GRATUITA!

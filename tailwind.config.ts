@@ -18,12 +18,14 @@ const config: Config = {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
+        primarybg: "url('../images/primarybg.png')",
         secondbg: "url('../images/bg1.png')",
         thirdbg: "url('../images/thirdbg.png')",
         fourthbg: "url('../images/fourthbg.png')",
         greenfadefifth: "url('../images/greenfadefifth.png')",
         greenfadefifth1: "url('../images/greenfadefifth1.png')",
-        sixthbg: "url('../images/sixthbg.png')"
+        sixthbg: "url('../images/sixthbg.png')",
+        seventhbg: "url('../images/seventhbg.png')"
       },
     },
   },
