@@ -34,7 +34,7 @@ export default function SecondFeature() {
                 tranquilidade.
               </p>
             </div>
-            <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml-0 ml-[25%] ">
+            <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml-0 ml-[27%] ">
               <Image src={Fibra2} alt="Fibra" className="" />
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function SecondFeature() {
         {/*Second Title*/}
         <div className="lg:flex-row text-center items-center justify-center lg:pt-28">
           <div className="lg:grid grid-cols-3 flex-row lg:mb-20">
-            <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml- ml-[25%] hidden lg:block ">
+            <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml- ml-[27%] hidden lg:block ">
               <Image src={Monitor} alt="Monitor" className="lg:ml-24" />
             </div>
             <div className="flex flex-col lg:col-span-2 justify-center items-center">
@@ -61,7 +61,7 @@ export default function SecondFeature() {
                 resolvendo interrupções rapidamente e de forma discreta.
               </p>
               <div className="items-center justify-center w-[200px] block lg:hidden ">
-                <Image src={Monitor} alt="Monitor" className="pb-10" />
+                <Image src={Monitor} alt="Monitor" className="pb-10 ml-1" />
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function SecondFeature() {
               foco na lucratividade e crescimento.
             </p>
           </div>
-          <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml-0 ml-[25%] ">
+          <div className="lg:grid-rows-3 items-center justify-center lg:w-56 w-[200px] lg:ml-0 ml-[27%] ">
             <Image src={Success} alt="Success" className="" />
           </div>
         </div>
